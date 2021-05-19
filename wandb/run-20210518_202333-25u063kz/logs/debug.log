@@ -1,0 +1,44 @@
+2021-05-18 20:23:33,971 INFO    MainThread:628774 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210518_202333-25u063kz/logs/debug.log
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210518_202333-25u063kz/logs/debug-internal.log
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:_jupyter_setup():287] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fc5473c2208>
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:init():369] calling init triggers
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [wandb_init.py:init():418] starting backend
+2021-05-18 20:23:33,972 INFO    MainThread:628774 [backend.py:_multiprocessing_setup():72] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2021-05-18 20:23:33,974 INFO    MainThread:628774 [backend.py:ensure_launched():132] starting backend process...
+2021-05-18 20:23:34,007 INFO    MainThread:628774 [backend.py:ensure_launched():137] started backend process with pid: 636079
+2021-05-18 20:23:34,009 INFO    MainThread:628774 [wandb_init.py:init():423] backend started and connected
+2021-05-18 20:23:34,024 INFO    MainThread:628774 [wandb_init.py:init():465] updated telemetry
+2021-05-18 20:23:34,025 INFO    MainThread:628774 [wandb_init.py:init():484] communicating current version
+2021-05-18 20:23:34,887 INFO    MainThread:628774 [wandb_init.py:init():489] got version response 
+2021-05-18 20:23:34,887 INFO    MainThread:628774 [wandb_init.py:init():497] communicating run to backend with 30 second timeout
+2021-05-18 20:23:35,476 INFO    MainThread:628774 [wandb_init.py:init():522] starting run threads in backend
+2021-05-18 20:23:40,482 INFO    MainThread:628774 [wandb_run.py:_console_start():1565] atexit reg
+2021-05-18 20:23:40,482 INFO    MainThread:628774 [wandb_run.py:_redirect():1412] redirect: SettingsConsole.WRAP
+2021-05-18 20:23:40,482 INFO    MainThread:628774 [wandb_run.py:_redirect():1455] Wrapping output streams.
+2021-05-18 20:23:40,482 INFO    MainThread:628774 [wandb_run.py:_redirect():1479] Redirects installed.
+2021-05-18 20:23:40,482 INFO    MainThread:628774 [wandb_init.py:init():546] run started, returning control to user process
+2021-05-18 20:23:40,580 INFO    MainThread:628774 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-18 20:23:40,580 INFO    MainThread:628774 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-18 20:23:41,066 INFO    MainThread:628774 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc5467a92e8>
+2021-05-18 20:24:06,954 INFO    MainThread:628774 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-18 20:24:06,958 INFO    MainThread:628774 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-18 20:24:06,958 INFO    MainThread:628774 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-18 20:24:07,461 INFO    MainThread:628774 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc548c58748>
+2021-05-18 20:24:07,465 INFO    MainThread:628774 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-18 20:24:07,486 INFO    MainThread:628774 [wandb_init.py:_pause_backend():249] pausing backend
+2021-05-18 20:24:07,486 INFO    MainThread:628774 [jupyter.py:save_ipynb():268] looking for notebook: 00-main.ipynb
+2021-05-18 20:24:08,678 INFO    MainThread:628774 [wandb_init.py:_pause_backend():253] saved code: <wandb.sdk.wandb_artifacts.Artifact object at 0x7fc546765e80>
+2021-05-18 20:24:08,684 INFO    MainThread:628774 [wandb_init.py:_resume_backend():258] resuming backend
+2021-05-18 20:24:08,694 INFO    MainThread:628774 [wandb_setup.py:_flush():69] setting env: {}
+2021-05-18 20:24:08,694 INFO    MainThread:628774 [wandb_setup.py:_flush():69] setting login settings: {}
+2021-05-18 20:24:08,694 INFO    MainThread:628774 [wandb_init.py:_log_setup():336] Logging user logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210518_202408-34mmwvxt/logs/debug.log
+2021-05-18 20:24:08,694 INFO    MainThread:628774 [wandb_init.py:_log_setup():337] Logging internal logs to /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210518_202408-34mmwvxt/logs/debug-internal.log
+2021-05-18 20:24:08,695 INFO    MainThread:628774 [wandb_init.py:init():369] calling init triggers
+2021-05-18 20:24:08,695 INFO    MainThread:628774 [wandb_init.py:init():376] wandb.init called with sweep_config: {}
+config: {}
+2021-05-18 20:24:08,695 INFO    MainThread:628774 [wandb_init.py:init():391] re-initializing run, found existing run on stack: 25u063kz
+2021-05-18 20:24:08,696 INFO    MainThread:628774 [wandb_run.py:finish():1208] finishing run ranuga-d/Weather-Clf/25u063kz

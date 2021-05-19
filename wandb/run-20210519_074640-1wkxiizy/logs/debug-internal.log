@@ -1,0 +1,657 @@
+2021-05-19 07:46:41,174 INFO    MainThread:20981 [internal.py:wandb_internal():91] W&B internal server running at pid: 20981, started at: 2021-05-19 07:46:41.174433
+2021-05-19 07:46:41,175 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 07:46:41,175 INFO    WriterThread:20981 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/run-1wkxiizy.wandb
+2021-05-19 07:46:41,177 DEBUG   SenderThread:20981 [sender.py:send():176] send: header
+2021-05-19 07:46:41,177 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: check_version
+2021-05-19 07:46:42,184 DEBUG   SenderThread:20981 [sender.py:send():176] send: run
+2021-05-19 07:46:42,187 DEBUG   SenderThread:20981 [git.py:repo():33] git repository is invalid
+2021-05-19 07:46:43,402 INFO    SenderThread:20981 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files
+2021-05-19 07:46:43,402 INFO    SenderThread:20981 [sender.py:_start_run_threads():699] run started: 1wkxiizy with start time 1621390600
+2021-05-19 07:46:43,402 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:46:43,402 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:46:43,403 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 07:46:44,405 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:46:45,967 DEBUG   HandlerThread:20981 [meta.py:__init__():39] meta init
+2021-05-19 07:46:45,967 DEBUG   HandlerThread:20981 [meta.py:__init__():53] meta init done
+2021-05-19 07:46:45,967 DEBUG   HandlerThread:20981 [meta.py:probe():210] probe
+2021-05-19 07:46:45,973 DEBUG   HandlerThread:20981 [git.py:repo():33] git repository is invalid
+2021-05-19 07:46:45,973 DEBUG   HandlerThread:20981 [meta.py:_save_code():89] save code
+2021-05-19 07:46:45,973 WARNING HandlerThread:20981 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 07:46:45,973 DEBUG   HandlerThread:20981 [meta.py:_save_pip():57] save pip
+2021-05-19 07:46:45,973 DEBUG   HandlerThread:20981 [meta.py:_save_pip():71] save pip done
+2021-05-19 07:46:45,973 DEBUG   HandlerThread:20981 [meta.py:_save_conda():78] save conda
+2021-05-19 07:46:46,406 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/conda-environment.yaml
+2021-05-19 07:46:46,406 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/requirements.txt
+2021-05-19 07:46:49,406 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/output.log
+2021-05-19 07:46:51,012 DEBUG   HandlerThread:20981 [meta.py:_save_conda():86] save conda done
+2021-05-19 07:46:51,012 DEBUG   HandlerThread:20981 [meta.py:probe():252] probe done
+2021-05-19 07:46:51,028 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:46:51,028 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:46:51,407 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/conda-environment.yaml
+2021-05-19 07:46:51,408 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-metadata.json
+2021-05-19 07:46:51,488 DEBUG   SenderThread:20981 [sender.py:send():176] send: files
+2021-05-19 07:46:51,489 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-19 07:46:53,541 INFO    Thread-11 :20981 [upload_job.py:push():133] Uploaded file /tmp/tmp6v6v7rivwandb/jm0o2x9o-wandb-metadata.json
+2021-05-19 07:47:04,394 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:47:04,394 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:47:04,397 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:47:04,415 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:47:06,489 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:47:06,490 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:47:14,182 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:47:17,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:47:17,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:47:17,925 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:47:18,423 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:47:22,233 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:47:22,233 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:47:31,084 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:47:31,084 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:47:31,086 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:47:31,428 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:47:38,523 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:47:38,524 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:47:44,070 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:47:44,070 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:47:44,070 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:47:44,437 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:47:44,438 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:47:54,233 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:47:54,234 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:47:57,253 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:47:57,254 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:47:57,254 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:47:57,443 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:48:10,750 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:48:10,751 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:48:11,351 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:48:11,352 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:48:11,352 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:48:11,448 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:48:14,681 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:48:23,821 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:48:23,821 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:48:23,824 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:48:24,453 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:48:26,353 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:48:26,353 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:48:36,612 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:48:36,613 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:48:36,613 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:48:37,458 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:48:41,872 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:48:41,873 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:48:44,907 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:48:49,605 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:48:49,606 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:48:49,606 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:48:50,462 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:48:57,370 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:48:57,370 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:49:02,622 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:49:02,623 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:49:02,623 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:49:03,467 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:49:13,054 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:49:13,054 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:49:15,171 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:49:15,823 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:49:15,823 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:49:15,823 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:49:16,472 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:49:28,506 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:49:28,507 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:49:29,205 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:49:29,206 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:49:29,206 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:49:29,477 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:49:42,054 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:49:42,054 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:49:42,054 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:49:42,482 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:49:44,207 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:49:44,208 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:49:45,402 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:49:54,922 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:49:54,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:49:54,924 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:49:55,487 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:49:59,823 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:49:59,824 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:50:07,879 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:50:07,879 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:50:07,880 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:50:08,492 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:50:15,619 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:50:16,515 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:50:16,515 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:50:20,812 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:50:20,812 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:50:20,812 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:50:21,497 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:50:31,973 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:50:31,974 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:50:33,889 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:50:33,889 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:50:33,890 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:50:34,502 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:50:45,835 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:50:46,865 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:50:46,866 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:50:46,866 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:50:47,507 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:50:47,805 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:50:47,805 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:50:59,815 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:50:59,816 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:50:59,816 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:51:00,512 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:51:04,057 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:51:04,058 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:51:12,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:51:12,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:51:12,924 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:51:13,517 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:51:16,079 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:51:19,551 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:51:19,551 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:51:25,983 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:51:25,984 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:51:25,986 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:51:26,522 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:51:35,078 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:51:35,078 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:51:39,176 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:51:39,177 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:51:39,177 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:51:39,527 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:51:46,307 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:51:51,791 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:51:51,791 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:51:52,223 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:51:52,223 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:51:52,224 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:51:52,532 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:52:05,110 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:52:05,110 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:52:05,111 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:52:05,537 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:52:07,225 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:52:07,225 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:52:16,513 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:52:18,109 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:52:18,109 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:52:18,110 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:52:18,543 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:52:22,935 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:52:22,935 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:52:31,060 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:52:31,060 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:52:31,061 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:52:31,549 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:52:39,632 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:52:39,633 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:52:43,988 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:52:43,989 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:52:43,989 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:52:44,553 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:52:46,779 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:52:55,318 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:52:55,318 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:52:57,157 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:52:57,157 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:52:57,157 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:52:57,558 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:53:10,301 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:53:10,301 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:53:10,301 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:53:10,563 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:53:10,785 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:53:10,786 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:53:16,998 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:53:23,367 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:53:23,368 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:53:23,368 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:53:23,568 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:53:26,524 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:53:26,525 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:53:36,260 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:53:36,261 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:53:36,261 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:53:36,573 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:53:43,220 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:53:43,221 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:53:47,200 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:53:49,631 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:53:49,631 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:53:49,631 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:53:50,579 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:53:58,916 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:53:58,916 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:54:02,760 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:54:02,761 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:54:02,761 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:54:03,585 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:54:14,366 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:54:14,366 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:54:15,794 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:54:15,795 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:54:15,795 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:54:16,593 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:54:17,448 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:54:28,879 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:54:28,880 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:54:28,880 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:54:29,601 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:54:29,814 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:54:29,815 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:54:41,946 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:54:41,947 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:54:41,947 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:54:42,607 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:54:45,612 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:54:45,612 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:54:47,701 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:54:54,989 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:54:54,989 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:54:54,990 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:54:55,612 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:55:02,383 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:55:02,383 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:55:07,847 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:55:07,847 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:55:07,848 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:55:08,617 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:55:17,921 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:55:18,186 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:55:18,186 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:55:22,564 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:55:22,564 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:55:22,564 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:55:22,622 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:55:34,469 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:55:34,470 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:55:34,470 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:55:34,628 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:55:37,565 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:55:37,566 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:55:47,510 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:55:47,510 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:55:47,510 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:55:47,633 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:55:48,133 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:55:53,272 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:55:53,272 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:56:00,528 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:56:00,528 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:56:00,529 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:56:00,638 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:56:08,725 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:56:08,726 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:56:13,690 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:56:13,691 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:56:13,691 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:56:14,644 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:56:18,376 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:56:25,614 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:56:25,614 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:56:26,939 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:56:26,940 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:56:26,940 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:56:27,652 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:56:39,931 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:56:39,932 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:56:39,933 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:56:40,657 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:56:41,472 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:56:41,472 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:56:48,591 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:56:52,915 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:56:52,916 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:56:52,916 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:56:53,662 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:56:56,923 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:56:56,924 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:57:06,093 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:57:06,094 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:57:06,094 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:57:06,667 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:57:12,637 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:57:12,637 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:57:18,792 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:57:19,069 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:57:19,070 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:57:19,070 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:57:19,672 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:57:28,556 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:57:28,556 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:57:32,151 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:57:32,152 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:57:32,152 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:57:32,677 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:57:44,273 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:57:44,274 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:57:45,136 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:57:45,137 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:57:45,137 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:57:45,683 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:57:49,010 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:57:58,287 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:57:58,287 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:57:58,288 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:57:58,688 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:57:59,736 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:57:59,736 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:58:11,024 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:58:11,024 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:58:11,025 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:58:11,693 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:58:15,737 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:58:15,738 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:58:19,226 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:58:24,002 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:58:24,003 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:58:24,003 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:58:24,698 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:58:32,043 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:58:32,043 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:58:36,863 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:58:36,864 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:58:36,864 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:58:37,703 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:58:48,694 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:58:48,695 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:58:49,460 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:58:49,917 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:58:49,918 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:58:49,918 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:58:50,708 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:59:03,052 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:59:03,052 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:59:03,052 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:59:03,716 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:59:04,172 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:59:04,173 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:59:16,197 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:59:16,197 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:59:16,198 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:59:16,721 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:59:19,609 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:59:19,610 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:59:20,307 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:59:29,226 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:59:29,227 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:59:29,227 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:59:29,726 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:59:35,309 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:59:35,309 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:59:42,299 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:59:42,299 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:59:42,300 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:59:42,732 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 07:59:49,917 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 07:59:51,194 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 07:59:51,194 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 07:59:55,291 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 07:59:55,291 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 07:59:55,293 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 07:59:55,737 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:00:06,690 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:00:06,691 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:00:08,422 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:00:08,422 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:00:08,423 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:00:08,743 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:00:20,146 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:00:21,841 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:00:21,842 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:00:21,842 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:00:22,422 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:00:22,422 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:00:22,748 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:00:34,883 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:00:34,884 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:00:34,886 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:00:35,753 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:00:37,876 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:00:37,876 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:00:47,873 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:00:47,874 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:00:47,874 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:00:48,757 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:00:50,364 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:00:53,602 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:00:53,602 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:01:01,104 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:01:01,105 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:01:01,105 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:01:01,762 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:01:09,070 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:01:09,070 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:01:14,173 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:01:14,173 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:01:14,175 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:01:14,766 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:01:20,597 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:01:24,527 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:01:24,527 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:01:27,320 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:01:27,320 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:01:27,320 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:01:27,771 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:01:40,311 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:01:40,312 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:01:41,122 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:01:41,123 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:01:41,123 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:01:41,776 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:01:50,814 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:01:53,419 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:01:53,419 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:01:53,419 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:01:53,781 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:01:56,123 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:01:56,124 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:02:06,312 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:02:06,312 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:02:06,313 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:02:06,786 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:02:11,575 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:02:11,576 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:02:19,131 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:02:19,132 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:02:19,132 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:02:19,792 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:02:21,017 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:02:27,722 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:02:27,722 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:02:32,180 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:02:32,180 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:02:32,180 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:02:32,797 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:02:43,576 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:02:43,577 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:02:45,063 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:02:45,063 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:02:45,063 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:02:45,803 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:02:51,250 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:02:58,327 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:02:58,327 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:02:58,328 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:02:58,808 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:02:59,296 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:02:59,296 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:03:11,168 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:03:11,168 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:03:11,168 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:03:11,813 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:03:15,008 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:03:15,008 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:03:21,487 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:03:24,358 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:03:24,358 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:03:24,358 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:03:24,818 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:03:30,469 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:03:30,469 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:03:37,515 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:03:37,516 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:03:37,516 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:03:37,823 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:03:45,904 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:03:45,905 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:03:50,685 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:03:50,685 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:03:50,685 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:03:50,829 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:03:51,722 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:04:01,371 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:04:01,372 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:04:03,795 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:04:03,796 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:04:03,796 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:04:03,835 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:04:16,770 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:04:16,770 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:04:16,770 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:04:16,844 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:04:17,101 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 08:04:17,101 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 08:04:21,971 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:04:29,914 DEBUG   SenderThread:20981 [sender.py:send():176] send: history
+2021-05-19 08:04:29,915 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:04:29,915 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:04:29,949 DEBUG   SenderThread:20981 [sender.py:send():176] send: config
+2021-05-19 08:04:30,702 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: log_artifact
+2021-05-19 08:04:30,702 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: log_artifact
+2021-05-19 08:04:30,709 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:30,850 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:04:30,850 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/output.log
+2021-05-19 08:04:30,851 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/code/_session_history.ipynb
+2021-05-19 08:04:30,851 INFO    Thread-8  :20981 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/code
+2021-05-19 08:04:33,981 INFO    Thread-14 :20981 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/b5/b560a6b9f2bcfa98deb7138536dbc0
+2021-05-19 08:04:34,042 INFO    Thread-13 :20981 [upload_job.py:push():91] Uploaded file /home/indika/.cache/wandb/artifacts/obj/md5/f4/bed6841bf0d6ca5b04d623314f5e79
+2021-05-19 08:04:35,810 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:36,922 DEBUG   SenderThread:20981 [sender.py:send():176] send: telemetry
+2021-05-19 08:04:36,923 DEBUG   SenderThread:20981 [sender.py:send():176] send: exit
+2021-05-19 08:04:36,923 INFO    SenderThread:20981 [sender.py:send_exit():281] handling exit code: 0
+2021-05-19 08:04:36,923 INFO    SenderThread:20981 [sender.py:send_exit():289] send defer
+2021-05-19 08:04:36,923 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:36,923 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:36,924 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:36,924 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 0
+2021-05-19 08:04:36,924 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:36,924 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 0
+2021-05-19 08:04:36,924 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 1
+2021-05-19 08:04:36,925 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:36,925 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 1
+2021-05-19 08:04:36,988 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:36,989 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 1
+2021-05-19 08:04:36,989 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 2
+2021-05-19 08:04:36,989 DEBUG   SenderThread:20981 [sender.py:send():176] send: stats
+2021-05-19 08:04:36,989 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:36,989 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 2
+2021-05-19 08:04:36,990 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:36,990 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 2
+2021-05-19 08:04:36,990 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 3
+2021-05-19 08:04:36,990 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:36,990 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 3
+2021-05-19 08:04:36,990 DEBUG   SenderThread:20981 [sender.py:send():176] send: summary
+2021-05-19 08:04:36,991 INFO    SenderThread:20981 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 08:04:36,991 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:36,991 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 3
+2021-05-19 08:04:36,991 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 4
+2021-05-19 08:04:36,991 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:36,991 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 4
+2021-05-19 08:04:36,991 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:36,991 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 4
+2021-05-19 08:04:37,029 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:37,706 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 5
+2021-05-19 08:04:37,707 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:37,707 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:37,707 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 5
+2021-05-19 08:04:37,707 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:37,707 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 5
+2021-05-19 08:04:37,708 INFO    SenderThread:20981 [dir_watcher.py:finish():282] shutting down directory watcher
+2021-05-19 08:04:37,808 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:37,854 INFO    SenderThread:20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:04:37,854 INFO    SenderThread:20981 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/config.yaml
+2021-05-19 08:04:37,854 INFO    SenderThread:20981 [dir_watcher.py:finish():312] scan: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files
+2021-05-19 08:04:37,855 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/requirements.txt requirements.txt
+2021-05-19 08:04:37,855 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/conda-environment.yaml conda-environment.yaml
+2021-05-19 08:04:37,855 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/output.log output.log
+2021-05-19 08:04:37,859 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/config.yaml config.yaml
+2021-05-19 08:04:37,863 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-metadata.json wandb-metadata.json
+2021-05-19 08:04:37,864 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json wandb-summary.json
+2021-05-19 08:04:37,872 INFO    SenderThread:20981 [dir_watcher.py:finish():318] scan save: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/code/_session_history.ipynb code/_session_history.ipynb
+2021-05-19 08:04:37,872 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 6
+2021-05-19 08:04:37,872 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:37,877 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:37,877 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 6
+2021-05-19 08:04:37,877 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:37,877 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 6
+2021-05-19 08:04:37,877 INFO    SenderThread:20981 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 08:04:37,877 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 7
+2021-05-19 08:04:37,878 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:37,878 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 7
+2021-05-19 08:04:37,878 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:37,878 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 7
+2021-05-19 08:04:37,974 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:38,502 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 8
+2021-05-19 08:04:38,503 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:38,503 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:38,503 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 8
+2021-05-19 08:04:38,503 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:38,503 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 8
+2021-05-19 08:04:38,503 INFO    SenderThread:20981 [sender.py:send_request_defer():336] send defer: 9
+2021-05-19 08:04:38,504 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: defer
+2021-05-19 08:04:38,504 DEBUG   SenderThread:20981 [sender.py:send():176] send: final
+2021-05-19 08:04:38,504 INFO    HandlerThread:20981 [handler.py:handle_request_defer():138] handle defer: 9
+2021-05-19 08:04:38,504 DEBUG   SenderThread:20981 [sender.py:send():176] send: footer
+2021-05-19 08:04:38,504 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: defer
+2021-05-19 08:04:38,504 INFO    SenderThread:20981 [sender.py:send_request_defer():298] handle sender defer: 9
+2021-05-19 08:04:38,604 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:38,605 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:38,706 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:38,706 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:38,808 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:38,808 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:38,911 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:38,911 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,012 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,012 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,114 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,115 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,122 INFO    Thread-19 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/wandb-summary.json
+2021-05-19 08:04:39,212 INFO    Thread-18 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/config.yaml
+2021-05-19 08:04:39,216 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,217 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,236 INFO    Thread-17 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/output.log
+2021-05-19 08:04:39,318 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,318 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,398 INFO    Thread-16 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/conda-environment.yaml
+2021-05-19 08:04:39,419 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,419 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,427 INFO    Thread-15 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/requirements.txt
+2021-05-19 08:04:39,521 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,521 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,623 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,623 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,717 INFO    Thread-20 :20981 [upload_job.py:push():133] Uploaded file /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/files/code/_session_history.ipynb
+2021-05-19 08:04:39,725 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,725 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,827 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,828 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,929 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: poll_exit
+2021-05-19 08:04:39,930 DEBUG   SenderThread:20981 [sender.py:send_request():186] send_request: poll_exit
+2021-05-19 08:04:39,930 INFO    SenderThread:20981 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 08:04:39,931 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: get_summary
+2021-05-19 08:04:39,932 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: sampled_history
+2021-05-19 08:04:39,934 DEBUG   HandlerThread:20981 [handler.py:handle_request():121] handle_request: shutdown
+2021-05-19 08:04:39,934 INFO    HandlerThread:20981 [handler.py:finish():632] shutting down handler
+2021-05-19 08:04:40,505 INFO    WriterThread:20981 [datastore.py:close():258] close: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_074640-1wkxiizy/run-1wkxiizy.wandb
+2021-05-19 08:04:40,930 INFO    SenderThread:20981 [sender.py:finish():925] shutting down sender
+2021-05-19 08:04:40,930 INFO    SenderThread:20981 [file_pusher.py:finish():176] shutting down file pusher
+2021-05-19 08:04:40,930 INFO    SenderThread:20981 [file_pusher.py:join():181] waiting for file pusher
+2021-05-19 08:04:40,934 INFO    MainThread:20981 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,38 @@
+2021-05-19 10:18:28,659 INFO    MainThread:131906 [internal.py:wandb_internal():91] W&B internal server running at pid: 131906, started at: 2021-05-19 10:18:28.659297
+2021-05-19 10:18:28,660 DEBUG   HandlerThread:131906 [handler.py:handle_request():121] handle_request: check_version
+2021-05-19 10:18:28,661 INFO    WriterThread:131906 [datastore.py:open_for_write():77] open: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/run-3k7svjwy.wandb
+2021-05-19 10:18:28,662 DEBUG   SenderThread:131906 [sender.py:send():176] send: header
+2021-05-19 10:18:28,663 DEBUG   SenderThread:131906 [sender.py:send_request():186] send_request: check_version
+2021-05-19 10:18:29,574 DEBUG   SenderThread:131906 [sender.py:send():176] send: run
+2021-05-19 10:18:29,577 DEBUG   SenderThread:131906 [git.py:repo():33] git repository is invalid
+2021-05-19 10:18:30,048 INFO    SenderThread:131906 [dir_watcher.py:__init__():168] watching files in: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files
+2021-05-19 10:18:30,048 INFO    SenderThread:131906 [sender.py:_start_run_threads():699] run started: 3k7svjwy with start time 1621399708
+2021-05-19 10:18:30,048 DEBUG   SenderThread:131906 [sender.py:send():176] send: summary
+2021-05-19 10:18:30,049 INFO    SenderThread:131906 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 10:18:30,049 DEBUG   HandlerThread:131906 [handler.py:handle_request():121] handle_request: run_start
+2021-05-19 10:18:31,050 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/wandb-summary.json
+2021-05-19 10:18:31,054 DEBUG   HandlerThread:131906 [meta.py:__init__():39] meta init
+2021-05-19 10:18:31,054 DEBUG   HandlerThread:131906 [meta.py:__init__():53] meta init done
+2021-05-19 10:18:31,054 DEBUG   HandlerThread:131906 [meta.py:probe():210] probe
+2021-05-19 10:18:31,059 DEBUG   HandlerThread:131906 [git.py:repo():33] git repository is invalid
+2021-05-19 10:18:31,060 DEBUG   HandlerThread:131906 [meta.py:_save_code():89] save code
+2021-05-19 10:18:31,060 WARNING HandlerThread:131906 [meta.py:_save_code():91] unable to save code -- program entry not found
+2021-05-19 10:18:31,060 DEBUG   HandlerThread:131906 [meta.py:_save_pip():57] save pip
+2021-05-19 10:18:31,060 DEBUG   HandlerThread:131906 [meta.py:_save_pip():71] save pip done
+2021-05-19 10:18:31,060 DEBUG   HandlerThread:131906 [meta.py:_save_conda():78] save conda
+2021-05-19 10:18:32,052 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/requirements.txt
+2021-05-19 10:18:32,052 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/conda-environment.yaml
+2021-05-19 10:18:35,688 DEBUG   HandlerThread:131906 [meta.py:_save_conda():86] save conda done
+2021-05-19 10:18:35,689 DEBUG   HandlerThread:131906 [meta.py:probe():252] probe done
+2021-05-19 10:18:35,691 DEBUG   HandlerThread:131906 [handler.py:handle_request():121] handle_request: stop_status
+2021-05-19 10:18:35,691 DEBUG   SenderThread:131906 [sender.py:send_request():186] send_request: stop_status
+2021-05-19 10:18:36,054 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/conda-environment.yaml
+2021-05-19 10:18:36,054 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/output.log
+2021-05-19 10:18:36,054 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_created():216] file/dir created: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/wandb-metadata.json
+2021-05-19 10:18:36,251 DEBUG   SenderThread:131906 [sender.py:send():176] send: files
+2021-05-19 10:18:36,252 INFO    SenderThread:131906 [sender.py:_save_file():821] saving file wandb-metadata.json with policy now
+2021-05-19 10:18:37,761 INFO    Thread-11 :131906 [upload_job.py:push():133] Uploaded file /tmp/tmppwtlnkpcwandb/25wtichl-wandb-metadata.json
+2021-05-19 10:18:43,825 DEBUG   SenderThread:131906 [sender.py:send():176] send: history
+2021-05-19 10:18:43,826 DEBUG   SenderThread:131906 [sender.py:send():176] send: summary
+2021-05-19 10:18:43,828 INFO    SenderThread:131906 [sender.py:_save_file():821] saving file wandb-summary.json with policy end
+2021-05-19 10:18:44,057 INFO    Thread-8  :131906 [dir_watcher.py:_on_file_modified():229] file/dir modified: /home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf/wandb/run-20210519_101828-3k7svjwy/files/wandb-summary.json

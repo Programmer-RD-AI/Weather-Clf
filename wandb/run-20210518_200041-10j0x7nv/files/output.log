@@ -1,0 +1,1 @@
+  return array(a, dtype, copy=False, order=order, subok=True)

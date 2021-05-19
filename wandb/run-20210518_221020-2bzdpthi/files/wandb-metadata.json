@@ -1,0 +1,21 @@
+{
+    "os": "Linux-5.8.0-53-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.3",
+    "heartbeatAt": "2021-05-18T16:40:22.658432",
+    "startedAt": "2021-05-18T16:40:20.143563",
+    "docker": null,
+    "gpu": "GeForce RTX 3060",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": "11.0.228",
+    "args": [
+        "-f",
+        "/home/indika/.local/share/jupyter/runtime/kernel-6b73094e-975a-45d8-8d88-518fc7b3f7cc.json"
+    ],
+    "state": "running",
+    "program": "00-main.ipynb",
+    "root": "/home/indika/Programming/Projects/Python/Artifical-Intelligence/PyTorch/CNN/Weather-Clf",
+    "host": "ranugad",
+    "username": "indika",
+    "executable": "/home/indika/anaconda3/bin/python"
+}
